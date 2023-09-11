@@ -1,6 +1,6 @@
 const notepad = document.getElementById('noteInput');
         const addButton = document.getElementById('addNote');
-        const deleteButton = document.getElementById('DeleteNote');
+        const deleteButton = document.getElementById('deleteNote');
 
         // Load saved text from localStorage when the page loads
         noteInput.value = localStorage.getItem('savedText') || '';
